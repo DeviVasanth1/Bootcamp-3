@@ -1,0 +1,51 @@
+CREATE OR REPLACE TABLE `devi-bootcamp.customer360_gold.CustomerSegments` AS
+WITH
+
+-- Step 1: Total spend from Online + In-store
+AllPurchases AS (
+  SELECT CustomerID, Amount FROM `devi-bootcamp.customer360_silver.OnlineTransactions`
+  UNION ALL
+  SELECT CustomerID, Amount FROM `devi-bootcamp.customer360_silver.InStoreTransactions`
+),
+
+SpendAndFrequency AS (
+  SELECT
+    CustomerID,
+    COUNT(*) AS PurchaseCount,
+    ROUND(SUM(Amount), 2) AS TotalSpend
+  FROM AllPurchases
+  GROUP BY CustomerID
+),
+
+-- Step 2: Add Loyalty Tier
+WithLoyalty AS (
+  SELECT
+    sf.CustomerID,
+    sf.PurchaseCount,
+    sf.TotalSpend,
+    UPPER(TRIM(l.TierLevel)) AS TierLevel
+  FROM SpendAndFrequency sf
+  LEFT JOIN `devi-bootcamp.customer360_silver.LoyaltyAccounts` l
+  ON sf.CustomerID = l.CustomerID
+),
+
+-- Step 3: Rank for Top 10% spenders
+Ranked AS (
+  SELECT *,
+    NTILE(10) OVER (ORDER BY TotalSpend DESC) AS SpendDecile
+  FROM WithLoyalty
+)
+
+-- Step 4: Segment assignment
+SELECT
+  CustomerID,
+  PurchaseCount,
+  TotalSpend,
+  TierLevel,
+  CASE
+    WHEN SpendDecile = 1 THEN 'High-Value Customer'
+    WHEN PurchaseCount >= 5 THEN 'Frequent Buyer'
+    WHEN TierLevel IN ('GOLD', 'PLATINUM') THEN 'Loyalty Champion'
+    ELSE 'Regular'
+  END AS Segment
+FROM Ranked;

@@ -1,0 +1,118 @@
+CustomerID,PurchaseCount,TotalSpend,TierLevel,Segment
+30,1,92.41,,Regular
+81,1,152.15,,Regular
+65,1,83.99,,Regular
+40,1,11.5,,Regular
+78,1,149.68,,Regular
+42,1,122.99,,Regular
+7,1,58.81,,Regular
+2,1,47.2,,Regular
+85,1,192.49,,Regular
+59,1,57.85,,Regular
+86,1,84.31,BRONZE,Regular
+83,1,49.44,BRONZE,Regular
+94,1,104.86,BRONZE,Regular
+69,1,55.97,BRONZE,Regular
+86,1,84.31,GOLD,Loyalty Champion
+55,1,16.58,GOLD,Loyalty Champion
+36,1,72.91,GOLD,Loyalty Champion
+84,1,156.57,GOLD,Loyalty Champion
+6,1,94.31,GOLD,Loyalty Champion
+8,1,90.37,GOLD,Loyalty Champion
+14,1,50.29,GOLD,Loyalty Champion
+57,1,187.76,PLATINUM,Loyalty Champion
+14,1,50.29,PLATINUM,Loyalty Champion
+94,1,104.86,PLATINUM,Loyalty Champion
+62,1,186.36,PLATINUM,Loyalty Champion
+36,1,72.91,SILVER,Regular
+84,1,156.57,SILVER,Regular
+67,1,145.31,SILVER,Regular
+99,2,353.54,,Regular
+60,2,196.72,,Regular
+89,2,224.39,,Regular
+56,2,339.37,,Regular
+80,2,210.8,,Regular
+32,2,232.28,,Regular
+98,2,84.93,,Regular
+87,2,160.05,,Regular
+19,2,266.4,,Regular
+58,2,93.7,,Regular
+24,2,141.67,,Regular
+29,2,54.59,BRONZE,Regular
+51,2,223.26,BRONZE,Regular
+51,2,223.26,BRONZE,Regular
+29,2,54.59,BRONZE,Regular
+17,2,292.74,BRONZE,Regular
+34,2,211.99,BRONZE,Regular
+51,2,223.26,BRONZE,Regular
+5,2,175.38,GOLD,Loyalty Champion
+27,2,145.7,GOLD,Loyalty Champion
+70,2,237.17,GOLD,Loyalty Champion
+17,2,292.74,GOLD,Loyalty Champion
+48,2,232.25,GOLD,Loyalty Champion
+23,2,293.88,GOLD,Loyalty Champion
+35,2,262.14,GOLD,Loyalty Champion
+34,2,211.99,GOLD,Loyalty Champion
+23,2,293.88,PLATINUM,Loyalty Champion
+79,2,143.72,PLATINUM,Loyalty Champion
+46,2,181.01,PLATINUM,Loyalty Champion
+72,2,255.09,PLATINUM,Loyalty Champion
+23,2,293.88,PLATINUM,Loyalty Champion
+35,2,262.14,SILVER,Regular
+5,2,175.38,SILVER,Regular
+72,2,255.09,SILVER,Regular
+100,2,349.6,SILVER,Regular
+22,2,214.25,SILVER,Regular
+21,2,239.86,SILVER,Regular
+51,2,223.26,SILVER,Regular
+29,2,54.59,SILVER,Regular
+54,2,264.15,SILVER,Regular
+23,2,293.88,SILVER,Regular
+16,2,160.07,SILVER,Regular
+25,2,248.03,SILVER,Regular
+71,3,427.08,,Regular
+92,3,347.13,,Regular
+66,3,353.91,,Regular
+82,3,393.54,,Regular
+76,3,282.87,,Regular
+1,3,214.81,BRONZE,Regular
+12,3,359.28,BRONZE,Regular
+90,3,395.93,BRONZE,Regular
+43,3,232.52,BRONZE,Regular
+90,3,395.93,BRONZE,Regular
+13,3,512.43,GOLD,High-Value Customer
+63,3,366.97,GOLD,Loyalty Champion
+88,3,269.39,GOLD,Loyalty Champion
+13,3,512.43,GOLD,High-Value Customer
+63,3,366.97,GOLD,Loyalty Champion
+11,3,346.65,PLATINUM,Loyalty Champion
+43,3,232.52,PLATINUM,Loyalty Champion
+9,3,352.96,PLATINUM,Loyalty Champion
+1,3,214.81,PLATINUM,Loyalty Champion
+61,3,317.28,PLATINUM,Loyalty Champion
+50,3,232.34,PLATINUM,Loyalty Champion
+9,3,352.96,PLATINUM,Loyalty Champion
+9,3,352.96,PLATINUM,Loyalty Champion
+68,3,462.0,PLATINUM,High-Value Customer
+75,3,354.66,PLATINUM,Loyalty Champion
+1,3,214.81,SILVER,Regular
+68,3,462.0,SILVER,High-Value Customer
+97,3,359.8,SILVER,Regular
+74,4,621.74,,High-Value Customer
+33,4,540.84,,High-Value Customer
+41,4,159.13,BRONZE,Regular
+49,4,354.69,BRONZE,Regular
+41,4,159.13,BRONZE,Regular
+47,4,460.85,GOLD,High-Value Customer
+20,4,448.54,GOLD,Loyalty Champion
+44,4,557.23,GOLD,High-Value Customer
+31,4,328.79,GOLD,Loyalty Champion
+44,4,557.23,PLATINUM,High-Value Customer
+91,4,411.15,SILVER,Regular
+96,4,84.54,SILVER,Regular
+20,4,448.54,SILVER,Regular
+18,4,595.73,SILVER,High-Value Customer
+91,4,411.15,SILVER,Regular
+73,5,716.37,BRONZE,High-Value Customer
+26,5,770.81,GOLD,High-Value Customer
+39,6,459.22,SILVER,Frequent Buyer

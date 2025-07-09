@@ -1,0 +1,67 @@
+AgentID,AgentName,Department,Shift,TotalInteractions,ResolvedCount,ResolutionRate
+38,Sabrina Miller,General Inquiry,Afternoon,2,0,0.0
+90,Allison Camacho,General Inquiry,Afternoon,1,0,0.0
+37,Michael Casey,Sales,Afternoon,2,0,0.0
+63,Kylie Arnold,General Inquiry,Afternoon,2,0,0.0
+28,Ricky Davenport,General Inquiry,Afternoon,1,0,0.0
+50,Mrs. Margaret Higgins DDS,General Inquiry,Afternoon,1,0,0.0
+31,Kimberly Chambers,Billing,Afternoon,2,0,0.0
+98,Dr. Thomas Wright,Technical Support,Afternoon,1,0,0.0
+95,Jeffrey Garza,Billing,Afternoon,1,0,0.0
+70,Juan Hernandez,Billing,Afternoon,1,0,0.0
+54,Lisa Williams,Sales,Afternoon,1,0,0.0
+74,Justin Browning,Billing,Afternoon,3,1,33.33
+96,Sandra Smith,Sales,Afternoon,3,1,33.33
+43,Ronnie Williamson,General Inquiry,Afternoon,2,1,50.0
+92,Angela Myers,Technical Support,Afternoon,2,1,50.0
+9,Amber Ross,Billing,Afternoon,2,1,50.0
+44,Nicholas Richardson,General Inquiry,Afternoon,1,1,100.0
+15,Kristen Crawford,Sales,Afternoon,1,1,100.0
+71,Leslie Cervantes,Technical Support,Afternoon,1,1,100.0
+11,Curtis Mcbride,Sales,Afternoon,1,1,100.0
+64,Matthew Morrison,Billing,Afternoon,1,1,100.0
+58,Jennifer Jarvis,Billing,Evening,2,0,0.0
+89,Jason Townsend,Technical Support,Evening,1,0,0.0
+20,Julia Owens,Sales,Evening,1,0,0.0
+13,Scott Flowers,Billing,Evening,1,0,0.0
+47,James Rose,Sales,Evening,1,0,0.0
+2,Terry Edwards,Billing,Evening,1,0,0.0
+10,Tonya Jones,Technical Support,Evening,1,0,0.0
+19,Eddie Pierce,Sales,Evening,1,0,0.0
+17,Brandon Jimenez,Technical Support,Evening,1,0,0.0
+4,Daryl Benjamin,Sales,Evening,2,0,0.0
+57,Karla Stokes,Sales,Evening,2,0,0.0
+99,Samantha Burke,Billing,Evening,1,0,0.0
+27,Shawn Gill,Technical Support,Evening,2,1,50.0
+78,Danny Williams,Technical Support,Evening,2,1,50.0
+29,Jessica Mora,Sales,Evening,2,1,50.0
+21,Cindy Gomez,Technical Support,Evening,3,2,66.67
+73,Gary Mccormick,Technical Support,Evening,3,2,66.67
+53,Ronald Valenzuela,Sales,Evening,1,1,100.0
+69,Maria Clay,Billing,Evening,1,1,100.0
+83,Michael Stein,Technical Support,Evening,1,1,100.0
+85,James Contreras,Billing,Evening,1,1,100.0
+87,Denise Henry,Technical Support,Evening,1,1,100.0
+86,Shawn Holmes,Technical Support,Morning,1,0,0.0
+61,Monica Cameron,Technical Support,Morning,1,0,0.0
+18,Melissa White,General Inquiry,Morning,2,0,0.0
+48,Scott Harris,General Inquiry,Morning,1,0,0.0
+81,Mary Cox,General Inquiry,Morning,1,0,0.0
+45,Robert Davis,General Inquiry,Morning,1,0,0.0
+1,Jonathan Williams,General Inquiry,Morning,1,0,0.0
+5,Matthew Long,Sales,Morning,1,0,0.0
+8,Teresa Bennett,Technical Support,Morning,1,0,0.0
+93,John Oliver,Technical Support,Morning,1,0,0.0
+46,Stephen Dickson,Technical Support,Morning,1,0,0.0
+41,Nicole Ortega,Sales,Morning,1,0,0.0
+66,Brandon Perry,General Inquiry,Morning,4,1,25.0
+34,Heather Harrison,General Inquiry,Morning,4,1,25.0
+88,Rachel Lewis,Technical Support,Morning,2,1,50.0
+32,Debbie Stewart,Billing,Morning,2,1,50.0
+97,Kenneth Valdez,Billing,Morning,2,1,50.0
+72,Heidi Cummings,Billing,Morning,2,1,50.0
+56,Danielle Thompson,Billing,Morning,1,1,100.0
+79,Morgan Spencer,Sales,Morning,1,1,100.0
+35,Julia Moon,Technical Support,Morning,2,2,100.0
+7,Elizabeth James,Technical Support,Morning,2,2,100.0
+33,Jimmy Weber,General Inquiry,Morning,1,1,100.0

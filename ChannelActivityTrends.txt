@@ -1,0 +1,25 @@
+CREATE OR REPLACE TABLE `devi-bootcamp.customer360_gold.ChannelActivityTrends` AS
+WITH CombinedChannelData AS (
+  -- Online transactions use DateTime
+  SELECT
+    'Online' AS Channel,
+    DATETIME_TRUNC(DateTime, HOUR) AS EventHour
+  FROM `devi-bootcamp.customer360_silver.OnlineTransactions`
+  
+  UNION ALL
+  
+  -- In-store transactions use TransactionTime
+  SELECT
+    'In-Store' AS Channel,
+    DATETIME_TRUNC(TransactionTime, HOUR) AS EventHour
+  FROM `devi-bootcamp.customer360_silver.InStoreTransactions`
+)
+
+SELECT
+  Channel,
+  FORMAT_DATE('%A', DATE(EventHour)) AS DayOfWeek,
+  EXTRACT(HOUR FROM EventHour) AS HourOfDay,
+  COUNT(*) AS TotalOrders
+FROM CombinedChannelData
+GROUP BY Channel, DayOfWeek, HourOfDay
+ORDER BY Channel, DayOfWeek, HourOfDay;
